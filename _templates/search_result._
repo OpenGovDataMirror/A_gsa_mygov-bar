@@ -1,0 +1,10 @@
+<h3>Results for <em><%= query %></em> <a href="https://search.usa.gov/search?affiliate=<%= MyGovBar.config.search_affiliate %>&query=<%= query %>" class="more-results" target="_blank">More results</a></h3>
+
+<ul class="content-links search">
+<% results.forEach( function(result) { %>
+  <li class="result">
+    <a class="title" href="<%= result.unescapedUrl %>" target="_blank"><%= result.title %>
+    <span class="excerpt"><%= result.content %></span></a>
+  </li>
+<% }) %>
+</ul>

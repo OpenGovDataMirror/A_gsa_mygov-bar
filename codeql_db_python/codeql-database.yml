@@ -1,0 +1,35 @@
+---
+sourceLocationPrefix: "/home/user/asf/cloner/gh/clones/A_gsa_mygov-bar"
+baselineLinesOfCode: 0
+unicodeNewlines: false
+columnKind: "utf32"
+primaryLanguage: "python"
+inProgress:
+  primaryLanguage: "python"
+  installedExtractors:
+    cpp:
+    - "file:///home/user/codeql/codeql/cpp/"
+    javascript:
+    - "file:///home/user/codeql/codeql/javascript/"
+    python:
+    - "file:///home/user/codeql/codeql/python/"
+    html:
+    - "file:///home/user/codeql/codeql/html/"
+    properties:
+    - "file:///home/user/codeql/codeql/properties/"
+    go:
+    - "file:///home/user/codeql/codeql/go/"
+    ruby:
+    - "file:///home/user/codeql/codeql/ruby/"
+    csharp:
+    - "file:///home/user/codeql/codeql/csharp/"
+    xml:
+    - "file:///home/user/codeql/codeql/xml/"
+    java:
+    - "file:///home/user/codeql/codeql/java/"
+    csv:
+    - "file:///home/user/codeql/codeql/csv/"
+creationMetadata:
+  sha: "5022acd56431dc7acb29e6a5533585081621d428"
+  cliVersion: "2.11.1"
+  creationTime: "2022-12-13T23:04:16.464356601Z"

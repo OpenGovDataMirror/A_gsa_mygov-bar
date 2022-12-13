@@ -1,0 +1,10 @@
+---
+sourceLocationPrefix: "/home/user/asf/cloner/gh/clones/A_gsa_mygov-bar"
+baselineLinesOfCode: 102
+unicodeNewlines: true
+columnKind: "utf16"
+primaryLanguage: "javascript"
+creationMetadata:
+  sha: "5022acd56431dc7acb29e6a5533585081621d428"
+  cliVersion: "2.11.1"
+  creationTime: "2022-12-13T23:04:20.087562806Z"

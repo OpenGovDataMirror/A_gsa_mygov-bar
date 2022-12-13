@@ -1,0 +1,14 @@
+<div class="tags">
+
+<h3>Help make this page more findable for all</h3>
+<ul>
+  <% _.each( tags, function(tag) { %>
+    <li class="tag" id="tag-<%= tag.id %>"><%= tag.name %></li>
+  <% }) %>
+  <li>
+</ul>
+<form id="tag_form">
+  <textarea id="tag_list" placeholder="Tag this page..." row="1"></textarea>
+</form>
+
+</div>
